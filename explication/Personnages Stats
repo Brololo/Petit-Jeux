@@ -1,0 +1,73 @@
+Perso Stats :
+
+hp :
+att :
+speed :
+defense :
+dodge :
+skills :
+
+Skill Stats : 
+
+DMG_MOD : 
+ACCURACY : 
+PENETRATION :
+CIBLETEAM : (1 allié /2 ennemie)
+CIBLE :
+
+Humain : 
+
+hp : 80
+att : 8
+speed : 8
+defense : 25
+dodge : 10
+skills : 
+    1 : 150, 100, 10, 2, 1
+    2 : 60 , 80, 0, 2, 4
+    3 : 60, 1000, 100, 1, 1
+
+Elfe :
+
+hp : 60
+att : 10
+speed : 10
+defense : 15
+dodge : 20
+skills :
+
+Nain : 
+
+hp : 70
+att : 10
+speed : 5
+defense : 50
+dodge : 5
+skills : 
+
+Homme-oiseau :
+
+hp : 50
+att : 9
+speed : 20
+defense : 10
+dodge : 30
+skills :
+
+Homme-Serpent :
+
+hp : 50
+att : 11
+speed : 11
+defense : 20
+dodge : 20
+skills :
+
+Fée :
+
+hp : 40
+att : 12
+speed : 15
+defense : 5
+dodge : 35
+skills :

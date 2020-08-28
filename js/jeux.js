@@ -10,6 +10,13 @@ class personnage {
 
   buff(stat, number) {
     console.log(stat, number);
+    switch (stat) {
+      case "dodge":
+        this.dodgeOfTheChar += number;
+        console.log(this.dodgeOfTheChar);
+      case "attaque":
+        this.attackOfTheChar += number;
+    }
   }
 
   take_damage(damage) {

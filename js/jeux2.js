@@ -156,7 +156,7 @@ class personnage {
   function play_a_turn(char) {
     console.log("Choisis une compétence");
   
-    // let choix = prompt("Choix de la compétence utilisé");
+    
   
   }
   
@@ -173,7 +173,7 @@ class personnage {
   }
   
   function combat(char1, char2) {
-    while (char1.hpOfTheChar > 0 && char2.hpOfTheChar > 0) {
+    if (char1.hpOfTheChar > 0 && char2.hpOfTheChar > 0) {
       start_turn(char1, char2);
     }
     if (char1.hpOfTheChar > 0) {
@@ -187,5 +187,6 @@ class personnage {
   
   let Joueur2 = new elf();
   
-  combat(Joueur1, Joueur2);
+//    combat(Joueur1, Joueur2);
+
   

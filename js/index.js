@@ -11,7 +11,6 @@ divJouer.style.left = wX / 3 + "px";
 divJouer.style.width = wX / 3 + "px";
 divJouer.style.top = wY / 6 + "px";
 divJouer.style.height = wY / 10 + "px";
-divJouer.style.backgroundColor = "black";
 
 let buttonJouer = document.getElementById("buttonJouer");
 buttonJouer.style.width = "100%";
@@ -30,3 +29,11 @@ let buttonRegles = document.getElementById("buttonRegles");
 buttonRegles.style.width = "100%";
 buttonRegles.style.height = "100%";
 buttonRegles.style.fontSize = "30px";
+
+
+function start_game(){
+    divJouer.remove();
+    buttonJouer.remove();
+    divRegles.remove();
+    buttonRegles.remove();
+}

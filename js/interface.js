@@ -45,9 +45,17 @@ function start_game(){
 
     // Create BUTTONS
     let BTN1 = document.createElement("button");
+    BTN1.id = "btn1";
+
     let BTN2 = document.createElement("button");
+    BTN2.id = "btn2";
+
     let BTN3 = document.createElement("button");
+    BTN3.id = "btn3";
+
     let BTN4 = document.createElement("button");
+    BTN4.id = "btn4";
+
 
 
     // Link DIVS to BODY tag
@@ -130,12 +138,13 @@ function start_game(){
 
     //Cretae SPAN
     let infoSpan = document.createElement("span");
+    infoSpan.id = "span";
     divInfo.appendChild(infoSpan);
     infoSpan.style.width = "100%";
     infoSpan.style.height = "100%";
     // infoSpan.style.backgroundColor = "green";
-    let infoTextSpan = 'ok ça marche';
-    infoSpan.innerHTML = infoTextSpan;
+    // let infoTextSpan = 'ok ça marche';
+    // infoSpan.innerHTML = infoTextSpan;
 
     BTN1.onclick = BTN1PRESSED;
     BTN2.onclick = BTN2PRESSED;
@@ -167,7 +176,7 @@ function start_game(){
         infoSpan.innerHTML = infoTextSpan;
     }
 
+    combat(Joueur1, Joueur2);
 }
-
 
 console.log("INDEX JS FILE DETECTED");
